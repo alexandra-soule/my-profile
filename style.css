@@ -1,7 +1,7 @@
 /* Colors and Fonts */
 
 body {
-	background-image: url(https://images.pexels.com/photos/4198183/pexels-photo-4198183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-image: url(https://images.pexels.com/photos/1391487/pexels-photo-1391487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 	background-size: cover;
 	color: #FF951C;
 	font-family: 'Pompiere', cursive;
@@ -35,7 +35,7 @@ a {
 	text-decoration: none;
 	color: #FF951C;
 	font-weight: bolder;
-	font-size: 32px;
+	font-size: 20px;
 }
 
 a:hover {
@@ -145,8 +145,8 @@ a:hover {
 	font-family: "Pompiere" cursive;
 }
 .logo {
-	width: 150px;
-	height: 150px;
+	width: 80px;
+	height: 80px;
 	border-radius: 10px;
 }
 .card-hobbies {
@@ -176,6 +176,9 @@ a:hover {
 }
 #hobbie-1 h2 {
 	margin-top: 30px;
+	margin-bottom: 70px;
+}
+#hobbie-2 h2 {
 	margin-bottom: 70px;
 }
 #hobbie-3 h2 {
