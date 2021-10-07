@@ -1,12 +1,11 @@
 /* Colors and Fonts */
 
 body {
-	background-image: url(https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-	background-repeat: no-repeat;
+	background-image: url(https://images.pexels.com/photos/4198183/pexels-photo-4198183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 	background-size: cover;
 	color: #FF951C;
 	font-family: 'Pompiere', cursive;
-	font-size: 32px;
+	font-size: 20px;
 }
 
 h1,h2 {
@@ -17,14 +16,14 @@ h1 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 	letter-spacing: 10px;
-	font-size: 56px;
+	font-size: 32px;
 }
 
 h2 {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: lighter;
 	letter-spacing: 5px;
-	font-size: 40px;
+	font-size: 32px;
 }
 
 p {
@@ -36,7 +35,7 @@ a {
 	text-decoration: none;
 	color: #FF951C;
 	font-weight: bolder;
-	font-size: 30px;
+	font-size: 32px;
 }
 
 a:hover {
@@ -47,33 +46,51 @@ a:hover {
 /* Custom design with class */
 
 .container {
-	width: 1800px;
+	width: 700px;
 	margin: 40px auto;
 }
 
 @media (max-width: 960px) {
 	.container {
 		width: 700px;
+		font-size: 32px;
+	}
+	h1 {
+		font-size: 48px;
 	}
 }
 
 @media (max-width: 720px) {
 	.container {
-		width: 500px;
+		width: 400px;
 		background-color: #FF951C;
+		background-image: none;
+		font-size: 20px;
 	}
+	h1{
+		font-size: 30px;
+		text-align: center;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	a {
+		font-size: 20px;
+	}
+
 }
 
 @media (max-width: 540px) {
 	.container {
 		width: 200px;
 		background-color: #FF951C;
+		background-image: none;
 	}
 }
 
 .card-introduction {
 	background-color: #C6E5B3;
-	padding: 40px;
+	padding: 100px;
 	box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
 	border-radius: 20px;
 	margin: 50px 50px;
@@ -86,7 +103,7 @@ a:hover {
 
 .card-peach {
 	background-color: #FEF4E1;
-	padding: 40px;
+	padding: 100px;
 	box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
 	border-radius: 20px;
 	margin: 50px 50px;
@@ -95,9 +112,9 @@ a:hover {
 
 .btn-click {
 	background-color: #FF951C;
-	padding: 30px;
-	width: 300px;
-	height: 60px;
+	padding: 20px;
+	width: 80px;
+	height: 40px;
 	border-radius: 10px;
 }
 
@@ -136,7 +153,7 @@ a:hover {
 	background-color: #FEF4E1;
 	border-radius: 20px;
 	margin-bottom: 50px;
-	padding: 10px 10px;
+	padding: 30px 30px;
 	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
 }
 
