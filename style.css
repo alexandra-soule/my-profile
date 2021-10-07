@@ -52,11 +52,15 @@ a:hover {
 
 @media (max-width: 960px) {
 	.container {
+		background-color: #FF951C;
 		width: 700px;
 		font-size: 32px;
 	}
 	h1 {
 		font-size: 48px;
+	}
+	h2 {
+		font-size: ;
 	}
 }
 
